@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Markers Press</title>
+<meta name="description" content="Two Markers Press — publisher of Learning With AI by Bruce DeSimas.">
+<style>
+  :root {
+    --near-black: #0c0c0c;
+    --amber: #E0A144;
+    --paper: #FDFCFA;
+    --muted: #9aa0ad;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--near-black);
+    color: var(--paper);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    padding: 4rem 1.5rem 2.5rem;
+    text-align: center;
+    border-bottom: 1px solid #1e1e1e;
+  }
+  header img {
+    width: 92px;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    margin: 0 0 0.6rem;
+    color: var(--paper);
+  }
+  .tagline {
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin: 0;
+    font-style: italic;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 1.5rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 360px;
+  }
+  .links a {
+    display: block;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.98rem;
+    transition: all 0.15s ease;
+  }
+  .primary {
+    background: var(--amber);
+    color: var(--near-black);
+  }
+  .primary:hover { opacity: 0.88; }
+  .secondary {
+    background: transparent;
+    color: var(--paper);
+    border: 1.5px solid #3a3a3a;
+  }
+  .secondary:hover { border-color: var(--amber); color: var(--amber); }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem 2.5rem;
+    font-size: 0.8rem;
+    color: #565656;
+  }
+  footer a { color: #565656; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Two Markers Press">
+  <h1>TWO MARKERS PRESS</h1>
+  <p class="tagline">Two Markers Press publishes books about curiosity, discovery, learning and using AI.</p>
+  <!-- Cover-specific tagline reserved for launch: pair with book cover +
+       Amazon link. "The mentor you always wanted has arrived." belongs to
+       the book's cover art -- ships together with it, not before. -->
+</header>
+
+<main>
+  <div class="links">
+    <!-- <a class="primary" href="https://www.amazon.com/dp/" target="_blank" rel="noopener">Learning With AI &mdash; the book</a> -->
+    <a class="secondary" href="https://physicsexplorer.com" target="_blank" rel="noopener">physicsexplorer.com &mdash; a companion project</a>
+    <a class="secondary" href="mailto:press@twomarkers.com">press@twomarkers.com</a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 Two Markers Press
+</footer>
+
+</body>
+</html>
